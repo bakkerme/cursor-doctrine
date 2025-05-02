@@ -17,6 +17,15 @@ Personal notes on Cursor use for commercial grade software engineering.
 - Best default
 - Uses tools and applies diffs the most consistent out of all models
 
+## Claude 3.7 Thinking
+### Initial Assumptions + Community thoughts
+- Good for deep refactors
+
+### IRL Experience
+- Slow
+- May be better for teasing apart deeply combined code and refactoring
+  - Would that still be better than 3.5 + refactoring doc?
+
 ## o4-mini
 ### Initial Assumptions + Community thoughts
 - Good for planning
@@ -26,6 +35,7 @@ Personal notes on Cursor use for commercial grade software engineering.
 - Slow, no \<think> tokens available
 - Poor at grepping and navigating the codebase, requires precise context management
 - Is this an opportunity to use @codebase?
+- I'm thinking this is not a useful model
 
 # Effective Prompts
 
