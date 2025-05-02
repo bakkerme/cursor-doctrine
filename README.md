@@ -71,5 +71,6 @@ This document should be ./docs/rss.md
 - Ask the LLM to start a markdown planning document
 - Open the doc and provide feedback on sections with a clear structure the LLM can follow
   - Like (USER: Some feedback here)
+- Ask it to use full links to files when referencing behaviour. This reduces grepping and lookups, increasing speed.
 - Feel free to make changes too, but I've found the LLM can reproduce deleted sections (needs more research)
 - Ask the LLM to refactor based on the provided feedback annotations.
